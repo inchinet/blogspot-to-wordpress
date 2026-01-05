@@ -79,7 +79,7 @@ Follow the prompts to enter:
 - Blogspot URL
 - WordPress site URL
 - WordPress username
-- WordPress application password
+- WordPress application password (for wordpress API please refer https://lifecheatslab.com/n8n-wordpress-api/)
 
 ## How It Works
 
