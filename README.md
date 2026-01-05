@@ -129,7 +129,7 @@ Check that:
 Verify:
 - You're using an Application Password, not your regular WordPress password
 - The username is correct
-- The Application Password has no spaces when entered
+- The Application Password is valid
 
 ## Requirements
 
