@@ -2,6 +2,8 @@
 
 A simple web application to migrate your Blogspot posts to WordPress, preserving all text, images, and videos.
 
+!UI (https://github.com/inchinet/blogspot-to-wordpress/blob/main/blogspot2wp.jpg)
+
 ## Features
 
 - 🚀 **Easy Migration**: Copy Blogspot posts to WordPress with a single click
