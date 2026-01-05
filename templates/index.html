@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquid Glass Publisher</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <div class="glass-container">
+        <h1>Blogspot to WordPress</h1>
+        <form id="publishForm">
+            <div class="input-group">
+                <label for="source_url">Blogspot Source URL</label>
+                <input type="url" id="source_url" name="source_url" placeholder="https://your-blog.blogspot.com/..."
+                    required>
+            </div>
+
+            <div class="input-group">
+                <label for="wp_url">WordPress Site URL</label>
+                <input type="url" id="wp_url" name="wp_url" value="" required>
+            </div>
+
+            <div class="input-row">
+                <div class="input-group half">
+                    <label for="username">WP Username</label>
+                    <input type="text" id="username" name="username" value="" placeholder="admin" required>
+                </div>
+                <div class="input-group half">
+                    <label for="password">WP App Password</label>
+                    <input type="password" id="password" name="password" value=""
+                        placeholder="xxxx xxxx xxxx xxxx" required>
+                </div>
+            </div>
+
+            <button type="submit" id="submitBtn">Publish Passage</button>
+        </form>
+
+        <div id="statusMessage" class="status hidden"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
